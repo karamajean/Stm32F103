@@ -1,5 +1,7 @@
-# Ovewview
+## Overview
 
+	LMT01_example is a sample program that shows how to use stm32f103 for gpio interrupts,
+    Obtain the PULSE of LMT01, convert it to temperature, and use the UART output temperature value
 
 # Requiements
 
