@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\ -I..\..\..\Libraries\CMSIS\CM3\CoreSupport -I..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\..\..\Utilities\STM32_EVAL -I..\..\..\Utilities\STM32_EVAL\STM32100E_EVAL -I..\..\..\Utilities\STM32_EVAL\Common 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DUSE_STM32100E_EVAL -o ".\STM32F103\usart.o" --omf_browse ".\STM32F103\usart.crf" --depend ".\STM32F103\usart.d" "USART.c"
